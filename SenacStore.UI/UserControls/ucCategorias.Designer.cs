@@ -35,8 +35,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             txtNome = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            btnCancelar = new Guna.UI2.WinForms.Guna2Button();
+            btnSalvar = new Guna.UI2.WinForms.Guna2Button();
             mdMessage = new Guna.UI2.WinForms.Guna2MessageDialog();
             SuspendLayout();
             // 
@@ -59,41 +59,41 @@
             txtNome.Size = new Size(200, 36);
             txtNome.TabIndex = 0;
             // 
-            // guna2Button2
+            // btnCancelar
             // 
-            guna2Button2.CustomizableEdges = customizableEdges3;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.DarkRed;
-            guna2Button2.Font = new Font("Segoe UI", 9F);
-            guna2Button2.ForeColor = Color.White;
-            guna2Button2.Location = new Point(300, 147);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Button2.Size = new Size(86, 45);
-            guna2Button2.TabIndex = 3;
-            guna2Button2.Text = "Cancelar";
-  
+            btnCancelar.CustomizableEdges = customizableEdges3;
+            btnCancelar.DisabledState.BorderColor = Color.DarkGray;
+            btnCancelar.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnCancelar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnCancelar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnCancelar.FillColor = Color.DarkRed;
+            btnCancelar.Font = new Font("Segoe UI", 9F);
+            btnCancelar.ForeColor = Color.White;
+            btnCancelar.Location = new Point(300, 147);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnCancelar.Size = new Size(86, 45);
+            btnCancelar.TabIndex = 3;
+            btnCancelar.Text = "Cancelar";
+            btnCancelar.Click += btnCancelar_Click;
             // 
-            // guna2Button1
+            // btnSalvar
             // 
-            guna2Button1.CustomizableEdges = customizableEdges5;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.DarkGreen;
-            guna2Button1.Font = new Font("Segoe UI", 9F);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(186, 147);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2Button1.Size = new Size(108, 45);
-            guna2Button1.TabIndex = 4;
-            guna2Button1.Text = "Salvar";
-           
+            btnSalvar.CustomizableEdges = customizableEdges5;
+            btnSalvar.DisabledState.BorderColor = Color.DarkGray;
+            btnSalvar.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSalvar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSalvar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSalvar.FillColor = Color.DarkGreen;
+            btnSalvar.Font = new Font("Segoe UI", 9F);
+            btnSalvar.ForeColor = Color.White;
+            btnSalvar.Location = new Point(186, 147);
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            btnSalvar.Size = new Size(108, 45);
+            btnSalvar.TabIndex = 4;
+            btnSalvar.Text = "Salvar";
+            btnSalvar.Click += btnSalvar_Click;
             // 
             // mdMessage
             // 
@@ -108,8 +108,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(guna2Button2);
-            Controls.Add(guna2Button1);
+            Controls.Add(btnCancelar);
+            Controls.Add(btnSalvar);
             Controls.Add(txtNome);
             Name = "ucCategorias";
             Size = new Size(613, 321);
@@ -119,8 +119,8 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2TextBox txtNome;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnCancelar;
+        private Guna.UI2.WinForms.Guna2Button btnSalvar;
         private Guna.UI2.WinForms.Guna2MessageDialog mdMessage;
     }
 }
