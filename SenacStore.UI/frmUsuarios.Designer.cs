@@ -1,0 +1,232 @@
+﻿namespace SenacStore.UI
+{
+    partial class frmUsuarios
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            components = new System.ComponentModel.Container();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
+            cboTipoUsuario = new Guna.UI2.WinForms.Guna2ComboBox();
+            txtNome = new Guna.UI2.WinForms.Guna2TextBox();
+            txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
+            txtSenha = new Guna.UI2.WinForms.Guna2TextBox();
+            btnSalvar = new Guna.UI2.WinForms.Guna2Button();
+            pbFoto = new PictureBox();
+            btnFechar = new Guna.UI2.WinForms.Guna2CircleButton();
+            mdMessage = new Guna.UI2.WinForms.Guna2MessageDialog();
+            ((System.ComponentModel.ISupportInitialize)pbFoto).BeginInit();
+            SuspendLayout();
+            // 
+            // guna2BorderlessForm1
+            // 
+            guna2BorderlessForm1.BorderRadius = 20;
+            guna2BorderlessForm1.ContainerControl = this;
+            guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            guna2BorderlessForm1.TransparentWhileDrag = true;
+            // 
+            // cboTipoUsuario
+            // 
+            cboTipoUsuario.BackColor = Color.Transparent;
+            cboTipoUsuario.BorderRadius = 10;
+            cboTipoUsuario.CustomizableEdges = customizableEdges10;
+            cboTipoUsuario.DrawMode = DrawMode.OwnerDrawFixed;
+            cboTipoUsuario.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboTipoUsuario.FocusedColor = Color.FromArgb(94, 148, 255);
+            cboTipoUsuario.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            cboTipoUsuario.Font = new Font("Century Gothic", 8.25F);
+            cboTipoUsuario.ForeColor = Color.FromArgb(68, 88, 112);
+            cboTipoUsuario.ItemHeight = 30;
+            cboTipoUsuario.Location = new Point(43, 293);
+            cboTipoUsuario.Name = "cboTipoUsuario";
+            cboTipoUsuario.ShadowDecoration.CustomizableEdges = customizableEdges11;
+            cboTipoUsuario.Size = new Size(200, 36);
+            cboTipoUsuario.TabIndex = 0;
+            // 
+            // txtNome
+            // 
+            txtNome.BorderRadius = 10;
+            txtNome.CustomizableEdges = customizableEdges8;
+            txtNome.DefaultText = "";
+            txtNome.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtNome.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtNome.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtNome.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtNome.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtNome.Font = new Font("Century Gothic", 8.25F);
+            txtNome.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtNome.Location = new Point(43, 144);
+            txtNome.Name = "txtNome";
+            txtNome.PlaceholderText = "Nome";
+            txtNome.SelectedText = "";
+            txtNome.ShadowDecoration.CustomizableEdges = customizableEdges9;
+            txtNome.Size = new Size(200, 38);
+            txtNome.TabIndex = 1;
+            // 
+            // txtEmail
+            // 
+            txtEmail.BorderRadius = 10;
+            txtEmail.CustomizableEdges = customizableEdges6;
+            txtEmail.DefaultText = "";
+            txtEmail.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtEmail.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtEmail.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtEmail.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtEmail.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtEmail.Font = new Font("Century Gothic", 8.25F);
+            txtEmail.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtEmail.Location = new Point(43, 194);
+            txtEmail.Name = "txtEmail";
+            txtEmail.PlaceholderText = "Email";
+            txtEmail.SelectedText = "";
+            txtEmail.ShadowDecoration.CustomizableEdges = customizableEdges7;
+            txtEmail.Size = new Size(200, 38);
+            txtEmail.TabIndex = 1;
+            // 
+            // txtSenha
+            // 
+            txtSenha.BorderRadius = 10;
+            txtSenha.CustomizableEdges = customizableEdges4;
+            txtSenha.DefaultText = "";
+            txtSenha.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtSenha.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtSenha.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtSenha.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtSenha.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtSenha.Font = new Font("Century Gothic", 8.25F);
+            txtSenha.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtSenha.Location = new Point(43, 245);
+            txtSenha.Name = "txtSenha";
+            txtSenha.PlaceholderText = "Senha";
+            txtSenha.SelectedText = "";
+            txtSenha.ShadowDecoration.CustomizableEdges = customizableEdges5;
+            txtSenha.Size = new Size(200, 38);
+            txtSenha.TabIndex = 1;
+            txtSenha.UseSystemPasswordChar = true;
+            // 
+            // btnSalvar
+            // 
+            btnSalvar.BorderRadius = 10;
+            btnSalvar.CustomizableEdges = customizableEdges2;
+            btnSalvar.DisabledState.BorderColor = Color.DarkGray;
+            btnSalvar.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSalvar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSalvar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSalvar.FillColor = Color.FromArgb(0, 85, 148);
+            btnSalvar.Font = new Font("Century Gothic", 8.25F);
+            btnSalvar.ForeColor = Color.White;
+            btnSalvar.Location = new Point(43, 345);
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.ShadowDecoration.CustomizableEdges = customizableEdges3;
+            btnSalvar.Size = new Size(200, 45);
+            btnSalvar.TabIndex = 2;
+            btnSalvar.Text = "Salvar";
+            btnSalvar.Click += btnSalvar_Click_1;
+            // 
+            // pbFoto
+            // 
+            pbFoto.Cursor = Cursors.Hand;
+            pbFoto.Image = Properties.Resources.user2;
+            pbFoto.Location = new Point(43, 33);
+            pbFoto.Name = "pbFoto";
+            pbFoto.Size = new Size(200, 95);
+            pbFoto.SizeMode = PictureBoxSizeMode.Zoom;
+            pbFoto.TabIndex = 3;
+            pbFoto.TabStop = false;
+            pbFoto.Click += pbFoto_Click;
+            // 
+            // btnFechar
+            // 
+            btnFechar.DisabledState.BorderColor = Color.DarkGray;
+            btnFechar.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnFechar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnFechar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnFechar.FillColor = Color.DarkRed;
+            btnFechar.Font = new Font("Segoe UI", 9F);
+            btnFechar.ForeColor = Color.White;
+            btnFechar.Location = new Point(246, 6);
+            btnFechar.Name = "btnFechar";
+            btnFechar.ShadowDecoration.CustomizableEdges = customizableEdges1;
+            btnFechar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            btnFechar.Size = new Size(30, 29);
+            btnFechar.TabIndex = 4;
+            btnFechar.Text = "X";
+            btnFechar.Click += guna2CircleButton1_Click;
+            // 
+            // mdMessage
+            // 
+            mdMessage.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            mdMessage.Caption = null;
+            mdMessage.Icon = Guna.UI2.WinForms.MessageDialogIcon.Information;
+            mdMessage.Parent = this;
+            mdMessage.Style = Guna.UI2.WinForms.MessageDialogStyle.Default;
+            mdMessage.Text = null;
+            // 
+            // frmUsuarios
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(283, 414);
+            Controls.Add(btnFechar);
+            Controls.Add(pbFoto);
+            Controls.Add(btnSalvar);
+            Controls.Add(txtSenha);
+            Controls.Add(txtEmail);
+            Controls.Add(txtNome);
+            Controls.Add(cboTipoUsuario);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "frmUsuarios";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "frmUsuarios";
+            Load += frmUsuarios_Load_1;
+            ((System.ComponentModel.ISupportInitialize)pbFoto).EndInit();
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
+        private PictureBox pbFoto;
+        private Guna.UI2.WinForms.Guna2Button btnSalvar;
+        private Guna.UI2.WinForms.Guna2TextBox txtSenha;
+        private Guna.UI2.WinForms.Guna2TextBox txtEmail;
+        private Guna.UI2.WinForms.Guna2TextBox txtNome;
+        private Guna.UI2.WinForms.Guna2ComboBox cboTipoUsuario;
+        private Guna.UI2.WinForms.Guna2CircleButton btnFechar;
+        private Guna.UI2.WinForms.Guna2MessageDialog mdMessage;
+    }
+}
