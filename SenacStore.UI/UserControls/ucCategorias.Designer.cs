@@ -51,7 +51,7 @@
             txtNome.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtNome.Font = new Font("Segoe UI", 9F);
             txtNome.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtNome.Location = new Point(186, 105);
+            txtNome.Location = new Point(186, 104);
             txtNome.Name = "txtNome";
             txtNome.PlaceholderText = "Nome da Categoria";
             txtNome.SelectedText = "";
