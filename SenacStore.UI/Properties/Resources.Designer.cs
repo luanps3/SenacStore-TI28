@@ -93,6 +93,16 @@ namespace SenacStore.UI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap caixa1 {
+            get {
+                object obj = ResourceManager.GetObject("caixa1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cursos2 {
             get {
                 object obj = ResourceManager.GetObject("cursos2", resourceCulture);
@@ -176,6 +186,16 @@ namespace SenacStore.UI.Properties {
         internal static System.Drawing.Bitmap users21 {
             get {
                 object obj = ResourceManager.GetObject("users21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap users22 {
+            get {
+                object obj = ResourceManager.GetObject("users22", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
