@@ -221,5 +221,10 @@ namespace SenacStore.UI.UserControls
                 mdMessage.Show($"Erro ao carregar imagem: {ex.Message}", "Erro");
             }
         }
+
+        private void ucProdutos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

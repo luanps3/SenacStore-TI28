@@ -179,6 +179,7 @@
             Controls.Add(pbFoto);
             Name = "ucProdutos";
             Size = new Size(584, 372);
+            Load += ucProdutos_Load;
             ((System.ComponentModel.ISupportInitialize)pbFoto).EndInit();
             ResumeLayout(false);
         }
