@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -59,6 +60,7 @@
             label1 = new Label();
             panel = new Guna.UI2.WinForms.Guna2Panel();
             btnFechar = new Guna.UI2.WinForms.Guna2CircleButton();
+            guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pbFoto).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -66,7 +68,8 @@
             // 
             // guna2Panel1
             // 
-            guna2Panel1.BackColor = Color.FromArgb(0, 85, 148);
+            guna2Panel1.BackColor = Color.Transparent;
+            guna2Panel1.BorderRadius = 10;
             guna2Panel1.Controls.Add(btnSair);
             guna2Panel1.Controls.Add(btnTipoUsuario);
             guna2Panel1.Controls.Add(btnCategorias);
@@ -76,6 +79,7 @@
             guna2Panel1.Controls.Add(lblUsuario);
             guna2Panel1.Controls.Add(pbFoto);
             guna2Panel1.CustomizableEdges = customizableEdges14;
+            guna2Panel1.FillColor = Color.FromArgb(0, 85, 148);
             guna2Panel1.Location = new Point(6, 7);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges15;
@@ -227,7 +231,7 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+          
             // 
             // label1
             // 
@@ -266,6 +270,13 @@
             btnFechar.TabIndex = 4;
             btnFechar.Text = "X";
             // 
+            // guna2BorderlessForm1
+            // 
+            guna2BorderlessForm1.BorderRadius = 20;
+            guna2BorderlessForm1.ContainerControl = this;
+            guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            guna2BorderlessForm1.TransparentWhileDrag = true;
+            // 
             // frmMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -280,6 +291,7 @@
             Name = "frmMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "frmMenu";
+            Load += frmMenu_Load;
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pbFoto).EndInit();
@@ -303,5 +315,6 @@
         private Guna.UI2.WinForms.Guna2Button btnCategorias;
         private Guna.UI2.WinForms.Guna2Button btnProdutos;
         private Guna.UI2.WinForms.Guna2Button btnUsuarios;
+        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
     }
 }
